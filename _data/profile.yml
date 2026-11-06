@@ -1,6 +1,6 @@
 primary_name: "Wei Cai"
 secondary_name: "蔡伟"
-navbar_name: "Wei Cai"
+navbar_name: "Wei Cai(蔡伟)"
 
 positions:
 - name: Master's Student in Software Engineering
@@ -8,7 +8,7 @@ positions:
 
 email: "caiwei_1030@163.com"
 # cv_link: link-to-your-cv-file
-github: caiwei1030
+# github: caiwei1030
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
 
@@ -16,13 +16,13 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     Wei Cai is a master's student in Software Engineering at the School of Software, University of Science and Technology of China.
-    His work covers multi-agent systems, evolutionary multi-objective optimization, and deep learning for sensor-data fusion.
+    His work and interests cover multi-agent systems,  multi-objective optimization, deep learning and LLM.
   </p>
   <p>
     He is currently an AI intern at the Quantum Computing R&D Department of China Telecom Quantum Group, where he works on
     orchestration, tool safety, and context management for the Tianyan Qmind multi-agent delivery platform. Before that,
     he led the core optimization algorithm upgrade of the Anasage system, combining NSGA-II, clustering, anomaly detection,
-    sensitivity analysis, and staged simulation control.
+    sensitivity analysis, and staged simulation control in Foohu Technology Company.
   </p>
 
 portrait_url: /assets/images/photos/wei-cai.jpg
@@ -40,17 +40,19 @@ education:
 experience:
 - name: China Telecom Quantum Group
   dept: Quantum Computing R&D Department
-  position: AI Intern, Tianyan Qmind
+  position: AI Intern
   date: Sep. 2026 - present
-- name: Fuhu Technology
-  dept: Anasage System
+- name: Foohu Technology
+  # dept: Anasage System
   position: Algorithm Engineer
   date: Jul. 2025 - Aug. 2026
 
 awards:
+- name: USTC Second-Level Scholarship
+  date: 2026
 - name: Outstanding Graduate of Nanchang University
   date: 2025
+- name: Nanchang University Special Scholarship, three consecutive years
+  date: 2024 -2023 - 2022
 - name: National College Student Mathematical Contest in Modeling, Second Prize
-  date: 2024
-- name: University Special Scholarship, three consecutive years
-  date: 2022 - 2024
+  date: 2023

@@ -1,6 +1,6 @@
 - title: Tianyan Qmind Agent Delivery Platform
   role: AI Intern
-  period: Sep. 2026 - present
+  period: Sep. 2026 - present, worked on China Telecom Quantum Group, Quantum Computing R&D Department.
   summary: >-
     Building an end-to-end multi-agent platform for quantum-computing applications, covering requirement clarification,
     research, planning, code generation, training, verification, and application delivery.
@@ -10,14 +10,15 @@
     - Implemented context-window awareness, overflow recovery, summarization, memory indexing, and asynchronous experience capture.
   tags:
     - Python
-    - Multi-Agent Systems
-    - Pydantic
-    - YAML
+    - FastAPI
+    - LangGraph
+    - LangChain
+    - Multi-Agent
     - Tool Safety
 
 - title: Anasage Circuit Optimization System
   role: Algorithm Engineer
-  period: Jul. 2025 - Aug. 2026
+  period: Jul. 2025 - Aug. 2026, worked on Foohu Technology Company.
   summary: >-
     Led the core optimization algorithm upgrade from version 1.0 to 2.0 for simulation-intensive analog-circuit optimization.
   highlights:
@@ -26,7 +27,22 @@
     - Used Morris global sensitivity analysis to retain high-impact variables before optimization.
   tags:
     - Python
-    - NSGA-II
     - Machine Learning
     - Genetic Algorithms
     - Multi-Objective Optimization
+
+- title: Building and Training a GPT Language Model from Scratch (Stanford CS336 Assignment 1)
+  role: Independent Learner
+  period: Oct. 2026 
+  summary: >-
+    Followed Stanford CS336, Language Modeling from Scratch, and implemented a BPE tokenizer, a Transformer language model, and a complete training system without relying on high-level PyTorch operators or existing training frameworks. 
+  highlights:
+    - Implemented all Transformer components from scratch, including RMSNorm, RoPE, SwiGLU, and multi-head causal attention, as well as AdamW, gradient clipping, and warmup plus cosine scheduling; passed all 13 model-chapter tests.
+    - Implemented a BPE tokenizer from scratch and trained a 10K vocabulary on TinyStories; improved full-corpus encoding speed by approximately 14.7x through streaming optimization and word-level caching, reaching a throughput of about 2.2M tokens/s.
+    - Designed and executed a 6-point learning-rate sweep with a best value around 3e-3, plus four architecture ablations covering normalization, NoPE, and activation functions; quantified component contributions, including approximately +0.17 degradation from NoPE, and achieved a 5000-step validation loss of 1.692, outperforming the staff reference value of 1.80.
+  tags:
+    - Python
+    - Language Modeling
+    - Transformer
+    - BPE Tokenization
+    - Experiment Design
