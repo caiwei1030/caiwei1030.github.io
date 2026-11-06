@@ -12,6 +12,10 @@ navbar_title: Home
 
         {% include widgets/profile_card_bio_only.html %}
 
+        {% if site.data.display.homepage.show_projects %}
+            {% include widgets/projects_card.html %}
+        {% endif %}
+
         <!-- Debugging widgets -->
         {% include widgets/debug_repo_name.html %}
         {% include widgets/debug_url.html %}

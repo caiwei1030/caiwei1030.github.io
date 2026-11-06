@@ -1,0 +1,28 @@
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+                <h6>Selected Projects</h6>
+                {% for project in site.data.projects %}
+                <article class="mb-4 {% unless forloop.last %}border-bottom pb-4{% endunless %}">
+                    <div class="d-flex flex-wrap align-items-baseline">
+                        <strong class="mr-2">{{ project.title }}</strong>
+                        <span class="small text-muted">{{ project.role }} · {{ project.period }}</span>
+                    </div>
+                    <p class="mb-2 mt-2">{{ project.summary }}</p>
+                    <ul class="small pl-3 mb-2">
+                        {% for highlight in project.highlights %}
+                        <li>{{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                    <div>
+                        {% for tag in project.tags %}
+                        <span class="badge badge-secondary mr-1 mb-1">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

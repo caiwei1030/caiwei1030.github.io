@@ -1,0 +1,32 @@
+- title: Tianyan Qmind Agent Delivery Platform
+  role: AI Intern
+  period: Sep. 2026 - present
+  summary: >-
+    Building an end-to-end multi-agent platform for quantum-computing applications, covering requirement clarification,
+    research, planning, code generation, training, verification, and application delivery.
+  highlights:
+    - Designed role-based orchestration with unified YAML configuration for prompts, tool allowlists, skills, and path permissions.
+    - Built a structured tool harness with Pydantic models, path checks, command constraints, network contracts, timeouts, and run history.
+    - Implemented context-window awareness, overflow recovery, summarization, memory indexing, and asynchronous experience capture.
+  tags:
+    - Python
+    - Multi-Agent Systems
+    - Pydantic
+    - YAML
+    - Tool Safety
+
+- title: Anasage Circuit Optimization System
+  role: Algorithm Engineer
+  period: Jul. 2025 - Aug. 2026
+  summary: >-
+    Led the core optimization algorithm upgrade from version 1.0 to 2.0 for simulation-intensive analog-circuit optimization.
+  highlights:
+    - Combined NSGA-II, K-means clustering, Isolation Forest, and adaptive differential evolution to avoid abnormal search regions.
+    - Introduced staged simulation and constraint-violation-driven evaluation to remove redundant process-corner simulations.
+    - Used Morris global sensitivity analysis to retain high-impact variables before optimization.
+  tags:
+    - Python
+    - NSGA-II
+    - Machine Learning
+    - Genetic Algorithms
+    - Multi-Objective Optimization
